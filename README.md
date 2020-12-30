@@ -27,3 +27,8 @@ include /etc/nginx/conf.d/sites-enabled/*.conf;```
 
 More details on steps:
 https://www.freecodecamp.org/news/docker-nginx-letsencrypt-easy-secure-reverse-proxy-40165ba3aee2/
+
+# Generate secure configs
+https://ssl-config.mozilla.org/
+# Test / ensure secure configs
+https://www.ssllabs.com/ssltest/

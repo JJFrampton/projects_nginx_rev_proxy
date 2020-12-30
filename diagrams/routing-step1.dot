@@ -1,0 +1,8 @@
+digraph {
+  "Outside Request" -> "Router";
+  "Router" -> "Outside Request";
+  "Router" -> "Rev-Proxy";
+  "Rev-Proxy" -> "Router";
+  "Rev-Proxy" -> "React Frontend";
+  "React Frontend" -> "Rev-Proxy";
+}
